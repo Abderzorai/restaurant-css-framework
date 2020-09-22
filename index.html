@@ -7,23 +7,10 @@
     <link rel="icon" href="./assets/img/pineappleblack.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
+<script type="text/javascript" src="assets/js/htmlimport.js"></script>
 <body>
-    <header class="container-fluid ">
-        <nav class="row d-flex justify-content-between align-items-center">
-            <a href="./index.html" class="col-3"><img src="./assets/img/pine_appetite.png" alt="Logo Pine&#127821;Appetite !"></a>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    pineappple
-                </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="#">À la carte</a>
-                  <a class="dropdown-item" href="#">Photos</a>
-                  <a class="dropdown-item" href="#">Autres restaurants</a>
-                  <a class="dropdown-item" href="#">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+
+    <header w3-include-html="header.html" class="container-fluid"></header>
     
     <main class="container-fluid">
 
@@ -69,6 +56,7 @@
 
     </main>
 
+
     <footer>
         <p>BeCode project made by :</p>
         <p>Joann Delahay - Olivia Fantinel - Julien Gabriel - Abderrahman Zorai</p>
@@ -78,5 +66,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>includeHTML();</script>
 </body>
 </html>
