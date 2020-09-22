@@ -1,5 +1,25 @@
-body main .headerImg {
-  width: 100vw;
+body main .mainContainer {
+  background-color: white;
+}
+body main .mainContainer .headerImg {
+  position: relative;
+  background-image: url("../img/pineapple-pattern-background.jpg");
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main .mainContainer .color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FBE288;
+  opacity: 0.3;
+  height: 50px;
+}
+body main .mainContainer .bgCard {
+  background-color: #D88C4F;
 }
 
 /*# sourceMappingURL=restaurant.css.map */
