@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/color_var.scss"],"names":[],"mappings":"AAEQ;AAGR;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI,kBC1BW;ED2BX;;AACA;EACI;;;AAIR;EACI,kBClCW;EDmCX;EACA;;AACA;EACI","file":"style.css"}
+=======
+{"version":3,"sourceRoot":"","sources":["../scss/style.scss","../scss/color_var.scss"],"names":[],"mappings":"AAEQ;AAER;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAGJ;EACI,kBClBW;;;ADqBf;EACI,kBCtBW;EDuBX;EACA;;AACA;EACI","file":"style.css"}
+>>>>>>> 1309c95... mon mien

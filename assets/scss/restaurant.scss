@@ -5,6 +5,9 @@ body{
     background-position: left;
     background-attachment: fixed;
     background-size: 100% auto;
+    nav{
+        background-color: $raisin_black;
+    }
     main{
         .mainContainer{
             background-color: $jasmine;

@@ -23,12 +23,9 @@ ul {
   list-style: none;
 }
 
-header {
+nav {
   background-color: #323141;
   width: 100%;
-}
-header * {
-  color: white;
 }
 
 footer {
