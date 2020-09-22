@@ -1,0 +1,28 @@
+@import "color_var.scss";
+
+p,h4{
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/pineapple_bg.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+main{
+    background-image: url(../img/pineapple-pattern-background.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    .jumbotron-fluid{
+        background-color: rgba($color: $jasmine, $alpha: 0.9);
+    }
+    .new{
+        background-color: white;
+    }
+    .news{
+        background-color: rgba($color: $persian_orange, $alpha: 0.9);
+    }
+}
+
