@@ -1,0 +1,27 @@
+p, h4 {
+  margin: 0;
+}
+
+body {
+  background-image: url(../img/pineapple_bg.png);
+  background-position: left;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+main {
+  background-image: url(../img/pineapple-pattern-background.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+main .jumbotron-fluid {
+  background-color: rgba(251, 226, 136, 0.9);
+}
+main .new {
+  background-color: white;
+}
+main .news {
+  background-color: rgba(216, 140, 79, 0.9);
+}
+
+/*# sourceMappingURL=home.css.map */
