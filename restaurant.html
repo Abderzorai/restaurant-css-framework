@@ -9,38 +9,108 @@
     <title>PineAppetit - Restaurants</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar">
-        <img src="./assets/img/pine_appetite.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mt-2 mt-lg-0 my-lg-0 ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Restaurant</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-navbar">
+            <img src="./assets/img/pine_appetite.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0 my-lg-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
     <main>
-        <div class="container">
-            <div class="row">
-                <img src="./assets/img/pineapple-pattern-background.jpg" class="img-fluid headerImg col-md-12" alt="head background">
-            </div>            
+        <div class="container p-0 mainContainer">
+            <div class="row headerImg p-0 m-0">
+                <div class="color-overlay"></div>
+             </div>  
+             <div class="row"> <!--Titres-->
+                 <h1 class="col-md-12 text-center my-4">Restaurants près de chez vous!</h1>
+                 <h2 class="col-md-12 text-center my-4">Sélectionnez votre restaurant préféré</h2>
+             </div>
+             <div class="row"> <!--Restos-->
+                <div class="col-md-5 container bgCard my-2 p-0">
+                    <div class="row">
+                        <img src="./assets/img/resto-bx.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <h3>Bruxelles - PineAppetit</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 container bgCard my-2 p-0">
+                    <div class="row">
+                        <img src="./assets/img/resto-namur.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <h3>Namur - PineAppetit</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 container bgCard my-2 p-0">
+                    <div class="row">
+                        <img src="./assets/img/resto-charleroi.jpg" alt="" class="col-4">
+                        <div class="col-8">
+                            <h3>Charleroi - PineAppetit</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="row"> <!--MAP-->
+                <div class="col-md-8 my-4 mx-auto">
+                    <img src="./assets/img/map.png" class="img-fluid center-block" style="width: 100%;" alt="">
+                </div>
+             </div>
+             <div class="row"> <!--SERVICES-->
+                <div class="col-md-5 container text-center bgCard my-2 p-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Questions fréquentes</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 container text-center bgCard my-2 p-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Service traiteur</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 container text-center bgCard my-2 p-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>Bons Cadeaux</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
         </div>  
     </main>
-
+    <footer class="container-md d-flex align-items-center flex-column">
+        <p>BeCode project made by :</p>
+        <p><a href="https://github.com/DelahayJoann" target="_blank">Joann Delahay</a> - <a href="https://github.com/tanoshiibot/" target="_blank">Olivia Fantinel</a> - <a href="https://github.com/Gabrielju" target="_blank">Julien Gabriel</a> - <a href="https://github.com/Abderzorai" target="_blank">Abderrahman Zorai</a> </p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" target="_blank" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" target="_blank" title="Flaticon">www.flaticon.com</a></p>
+    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
