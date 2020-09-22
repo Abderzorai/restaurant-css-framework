@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+main {
+  background-color: white;
+  padding: 0 0 0 0;
+  font-weight: bold;
+}
+main .bg {
+  background-image: url(../img/pastel-1725965_1920.png);
+  background-size: cover;
+  margin: 0 0 20px 0;
+  border-radius: 20px;
+}
+main li {
+  display: flex;
+  justify-content: space-between;
+}
 
+.italic {
+  font-style: italic;
+}
 
 /*# sourceMappingURL=menu.css.map */
