@@ -4,19 +4,16 @@ p,h4{
     margin: 0;
 }
 
-body{
-    background-image: url(../img/pineapple_bg.png);
-    background-position: left;
-    background-attachment: fixed;
-    background-size: 100% auto;
-}
-
 main{
     background-image: url(../img/pineapple-pattern-background.jpg);
     background-attachment: fixed;
     background-size: contain;
     .jumbotron-fluid{
         background-color: rgba($color: $jasmine, $alpha: 0.9);
+        padding: 10em 0 10em 0;
+        h1{
+            margin: 0 0 2em 0;
+        }
     }
     .new{
         background-color: white;
