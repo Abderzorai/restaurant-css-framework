@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.italic {
+  font-style: italic;
+}
+
 main {
   background-color: white;
   padding: 0 0 0 0;
@@ -13,10 +16,6 @@ main .bg {
 main li {
   display: flex;
   justify-content: space-between;
-}
-
-.italic {
-  font-style: italic;
 }
 
 /*# sourceMappingURL=menu.css.map */
