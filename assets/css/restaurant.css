@@ -1,10 +1,18 @@
+body {
+  background-image: url(../img/pineapple_bg.png);
+  background-position: left;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+body nav {
+  background-color: #323141;
+}
 body main .mainContainer {
-  background-color: white;
+  background-color: #FBE288;
 }
 body main .mainContainer .headerImg {
-  position: relative;
   background-image: url("../img/pineapple-pattern-background.jpg");
-  height: 50px;
+  height: 130px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -20,6 +28,10 @@ body main .mainContainer .color-overlay {
 }
 body main .mainContainer .bgCard {
   background-color: #D88C4F;
+  border: 2px solid black;
+}
+body main .mainContainer .accordion .card a .card-header h2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=restaurant.css.map */

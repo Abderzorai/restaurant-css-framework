@@ -1,13 +1,19 @@
 @import "color_var.scss";
 
 body{
+    background-image: url(../img/pineapple_bg.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    nav{
+        background-color: $raisin_black;
+    }
     main{
         .mainContainer{
-                background-color: white;
+            background-color: $jasmine;
             .headerImg{
-                position: relative;
                 background-image: url("../img/pineapple-pattern-background.jpg");
-                height: 50px;
+                height: 130px;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -23,6 +29,22 @@ body{
              }
              .bgCard{
                  background-color: $persian_orange;
+                 border: 2px solid black;
+             }
+             .accordion{
+
+                .card{
+
+                    a{
+
+                        .card-header{
+
+                            h2{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
              }
         }
     }

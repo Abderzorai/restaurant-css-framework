@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-navbar">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-navbar m-0">
             <img src="./assets/img/pine_appetite.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -19,13 +19,16 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav mt-2 mt-lg-0 my-lg-0 ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Accueil</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Restaurant</a>
+                        <a class="nav-link" href="#">Restaurant <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pics.html">Photos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -39,73 +42,126 @@
         <div class="container p-0 mainContainer">
             <div class="row headerImg p-0 m-0">
                 <div class="color-overlay"></div>
-             </div>  
-             <div class="row"> <!--Titres-->
-                 <h1 class="col-md-12 text-center my-4">Restaurants près de chez vous!</h1>
-                 <h2 class="col-md-12 text-center my-4">Sélectionnez votre restaurant préféré</h2>
-             </div>
-             <div class="row"> <!--Restos-->
-                <div class="col-md-5 container bgCard my-2 p-0">
-                    <div class="row">
-                        <img src="./assets/img/resto-bx.jpg" alt="" class="col-4">
-                        <div class="col-8">
-                            <h3>Bruxelles - PineAppetit</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>  
+            <div class="row m-0 bgSection1"> <!--Titres-->
+                <h1 class="col-md-12 text-center my-4">Restaurants près de chez vous!</h1>
+                <h2 class="col-md-12 text-center my-4">Sélectionnez votre région préférée</h2>
+            </div>
+             
+
+            <div class="accordion col-md-8 mx-auto" id="accordion"> <!-- RESTOS -->
+                <div class="card">
+                    <a data-toggle="collapse" data-target="#collapseOne">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                Bruxelles							
+                            </h2>
+                        </div>
+                    </a>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto1.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Bruxelles Grand Place - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto1-2.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Eterbeek - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto1-3.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Woluwe Saint Lambert - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 container bgCard my-2 p-0">
-                    <div class="row">
-                        <img src="./assets/img/resto-namur.jpg" alt="" class="col-4">
-                        <div class="col-8">
-                            <h3>Namur - PineAppetit</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="card">
+                    <a data-toggle="collapse" data-target="#collapseTwo">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                Namur								
+                            </h2>
+                        </div>
+                    </a>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto2-1.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Namur - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto2.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Namur - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 container bgCard my-2 p-0">
-                    <div class="row">
-                        <img src="./assets/img/resto-charleroi.jpg" alt="" class="col-4">
-                        <div class="col-8">
-                            <h3>Charleroi - PineAppetit</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="card">
+                    <a data-toggle="collapse" data-target="#collapseThree">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                                Charleroi								
+                            </h2>
+                        </div>
+                    </a>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="row m-0 card-body">
+                            <img src="./assets/img/resto3.jpg" alt="" class="col-md-4">
+                            <div class="col-md-8 p-2">
+                                <h3>Charleroi - PineAppetit</h2>
+                                <p>(adress)Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-             </div>
-             <div class="row"> <!--MAP-->
+            </div>
+
+            <div class="row m-0"> <!--MAP (Google API? If time)-->
                 <div class="col-md-8 my-4 mx-auto">
-                    <img src="./assets/img/map.png" class="img-fluid center-block" style="width: 100%;" alt="">
+                    <img src="./assets/img/map.jpg" class="img-fluid center-block" style="width: 100%;" alt="">
                 </div>
-             </div>
-             <div class="row"> <!--SERVICES-->
-                <div class="col-md-5 container text-center bgCard my-2 p-0">
+            </div>
+
+            <div class="row m-0"> <!--SERVICES-->
+                <a class="col-md-5 container text-center bgCard my-3 p-0">
                     <div class="row">
                         <div class="col-12">
                             <h3>Questions fréquentes</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 container text-center bgCard my-2 p-0">
+                </a>
+                <a class="col-md-5 container text-center bgCard my-3 p-0">
                     <div class="row">
                         <div class="col-12">
                             <h3>Service traiteur</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-5 container text-center bgCard my-2 p-0">
+                </a>
+                <a class="col-md-5 container text-center bgCard my-3 p-0">
                     <div class="row">
                         <div class="col-12">
                             <h3>Bons Cadeaux</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
-                </div>
-             </div>
+                </a>
+            </div>
         </div>  
     </main>
+
     <footer class="container-md d-flex align-items-center flex-column">
         <p>BeCode project made by :</p>
         <p><a href="https://github.com/DelahayJoann" target="_blank">Joann Delahay</a> - <a href="https://github.com/tanoshiibot/" target="_blank">Olivia Fantinel</a> - <a href="https://github.com/Gabrielju" target="_blank">Julien Gabriel</a> - <a href="https://github.com/Abderzorai" target="_blank">Abderrahman Zorai</a> </p>
