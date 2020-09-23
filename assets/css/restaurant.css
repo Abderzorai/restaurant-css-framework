@@ -1,17 +1,46 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 1 | @import "color_var.scss";
- *   |         ^^^^^^^^^^^^^^^^
- *   '
- *   scss\restaurant.scss 1:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @import \"color_var.scss\";\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\restaurant.scss 1:9  root stylesheet";
+body {
+  background-image: url(../img/pineapple_bg.png);
+  background-position: left;
+  background-attachment: fixed;
+  background-size: 100% auto;
 }
+body nav {
+  background-color: #323141;
+}
+body main .mainContainer {
+  background-color: #FBE288;
+}
+body main .mainContainer .headerImg {
+  background-image: url("../img/pineapple-pattern-background.jpg");
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main .mainContainer .color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FBE288;
+  opacity: 0.3;
+  height: 50px;
+}
+body main .mainContainer .bgCard {
+  background-color: #D88C4F;
+  border: 2px solid black;
+}
+body main .mainContainer .accordion .card {
+  background-color: #D88C4F;
+}
+body main .mainContainer .accordion .card a {
+  cursor: pointer;
+}
+body main .mainContainer .accordion .card a .card-header h2 {
+  text-align: center;
+}
+body main .mainContainer .cardService a {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=restaurant.css.map */
