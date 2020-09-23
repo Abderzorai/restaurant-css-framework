@@ -33,8 +33,14 @@ body main .mainContainer .bgCard {
 body main .mainContainer .accordion .card {
   background-color: #D88C4F;
 }
+body main .mainContainer .accordion .card a {
+  cursor: pointer;
+}
 body main .mainContainer .accordion .card a .card-header h2 {
   text-align: center;
+}
+body main .mainContainer .cardService a {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=restaurant.css.map */
