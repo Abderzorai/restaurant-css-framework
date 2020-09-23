@@ -1,46 +1,35 @@
 h3 {
   padding: 2em 0 2em 0;
-  text-align: center;
-}
+  text-align: center; }
 
 p, h4 {
-  margin: 0;
-}
+  margin: 0; }
 
 h4 {
   padding: 0.5em 0 0.5em 0;
-  text-align: center;
-}
+  text-align: center; }
 
 main {
   background-image: url(../img/pineapple-pattern-background.jpg);
   background-attachment: fixed;
-  background-size: contain;
-}
-main .jumbotron-fluid {
-  background-color: rgba(251, 226, 136, 0.9);
-  padding: 10em 0 10em 0;
-}
-main .jumbotron-fluid h1 {
-  margin: 0 0 2em 0;
-}
-main .new {
-  background-color: white;
-}
-main .new img {
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
-}
-main .news {
-  background-color: rgba(216, 140, 79, 0.9);
-}
-main .news a {
-  background: rgba(132, 195, 65, 0.8);
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
-  margin: 0 0 2em 0;
-  padding: 0.5em;
-}
-main .news a p {
-  font-size: x-large;
-}
+  background-size: contain; }
+  main .jumbotron-fluid {
+    background-color: rgba(251, 226, 136, 0.9);
+    padding: 10em 0 10em 0; }
+    main .jumbotron-fluid h1 {
+      margin: 0 0 2em 0; }
+  main .new {
+    background-color: white; }
+    main .new img {
+      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062); }
+  main .news {
+    background-color: rgba(216, 140, 79, 0.9); }
+    main .news a {
+      background: rgba(132, 195, 65, 0.8);
+      box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
+      margin: 0 0 2em 0;
+      padding: 0.5em; }
+      main .news a p {
+        font-size: x-large; }
 
 /*# sourceMappingURL=home.css.map */
