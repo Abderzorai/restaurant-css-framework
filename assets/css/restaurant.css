@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/* Error: expected selector.
- *   ,
- * 8 | <<<<<<< HEAD
- *   | ^
- *   '
- *   scss\restaurant.scss 8:1  root stylesheet */
-=======
 body {
   background-image: url(../img/pineapple_bg.png);
   background-position: left;
@@ -16,7 +8,6 @@ body nav {
   background-color: #323141;
 }
 body main .mainContainer {
-  border: 3px solid black;
   background-color: #FBE288;
 }
 body main .mainContainer .headerImg {
@@ -39,7 +30,11 @@ body main .mainContainer .bgCard {
   background-color: #D88C4F;
   border: 2px solid black;
 }
->>>>>>> 1309c95... mon mien
+
+body main .mainContainer .accordion .card a .card-header h2 {
+  text-align: center;
+}
+>>>>>>> cd10e22... 10:39
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
