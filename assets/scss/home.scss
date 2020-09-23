@@ -1,7 +1,18 @@
 @import "color_var.scss";
 
+h3{
+    padding: 2em 0 2em 0;
+    text-align: center;
+}
+
 p,h4{
     margin: 0;
+}
+
+
+h4{
+    padding: 0.5em 0 0.5em 0;
+    text-align: center;
 }
 
 main{
@@ -17,9 +28,21 @@ main{
     }
     .new{
         background-color: white;
+        img{
+            box-shadow: $black_shadow;
+        }
     }
     .news{
         background-color: rgba($color: $persian_orange, $alpha: 0.9);
+        a{
+            background: rgba($yellow_green, 0.8);
+            box-shadow: $black_shadow;
+            margin: 0 0 2em 0;
+            padding: 0.5em;
+            p{
+                font-size: x-large;
+            }
+        }
     }
 }
 
