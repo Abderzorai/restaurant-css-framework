@@ -26,17 +26,17 @@ body{
                 background-color: $jasmine;
                 opacity: 0.3;
                 height: 50px;
-             }
-             .bgCard{
-                 background-color: $persian_orange;
-                 border: 2px solid black;
-             }
-             .accordion{
+            }
+            .bgCard{
+                background-color: $persian_orange;
+                border: 2px solid black;
+            }
+            .accordion{
 
                 .card{
                         background-color: $persian_orange;
                     a{
-
+                        cursor: pointer;
                         .card-header{
 
                             h2{
@@ -44,6 +44,12 @@ body{
                             }
                         }
                     }
+                }
+             }
+             .cardService{
+
+                a{
+                    cursor: pointer;
                 }
              }
         }
