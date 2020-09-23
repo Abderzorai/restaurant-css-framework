@@ -30,6 +30,9 @@ body main .mainContainer .bgCard {
   background-color: #D88C4F;
   border: 2px solid black;
 }
+body main .mainContainer .accordion .card {
+  background-color: #D88C4F;
+}
 body main .mainContainer .accordion .card a .card-header h2 {
   text-align: center;
 }
