@@ -18,4 +18,11 @@ button {
   text-align: center;
 }
 
+.hoversass {
+  transition: transform 0.5s;
+}
+.hoversass:hover {
+  transform: scale(1.05);
+}
+
 /*# sourceMappingURL=contact.css.map */

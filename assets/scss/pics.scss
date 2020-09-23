@@ -1,7 +1,9 @@
+@import "color_var.scss";
+
 #carouselExemple {
   margin: 0 auto;
   margin-top: 120px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
+  box-shadow: $black_shadow;
 }
 
 .carousel-item img {
@@ -10,15 +12,13 @@
 }
 
 h1 {
-  text-align: center;
-  padding: 2em 0 0 0;
+    text-align: center;
+    padding: 2em 0 0 0;
 }
 
 .mainContainer {
-  background-color: #FBE288;
-  padding: 0 0 5em 0;
+    background-color:  #FBE288;
+    padding: 0 0 5em 0;
 }
-
-/*# sourceMappingURL=pics.css.map */
 
 /*# sourceMappingURL=pics.css.map */
