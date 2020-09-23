@@ -1,0 +1,22 @@
+@import "color_var.scss";
+
+.italic{
+    font-style: italic;
+}
+
+main{
+    background-color: white;
+    padding: 0 0 0 0;
+    font-weight: bold;
+    .bg{
+        background-image: url(../img/pastel-1725965_1920.png);
+        background-size: cover;
+        margin: 0 0 20px 0;
+        border-radius: 20px;
+    }
+    li{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
