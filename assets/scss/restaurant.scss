@@ -1,5 +1,11 @@
 @import "color_var.scss";
 
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+
 body{
     background-image: url(../img/pineapple_bg.png);
     background-position: left;
@@ -44,14 +50,22 @@ body{
                             }
                         }
                     }
+                    [id^=collapse]{
+                        img{
+                            max-height: 200px;
+                        }
+                    }
                 }
              }
-             .cardService{
+            .cardService{
 
                 a{
                     cursor: pointer;
                 }
-             }
+            }
+            .map{
+                border: none;
+            }
         }
     }
 }
