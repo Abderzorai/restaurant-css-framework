@@ -34,10 +34,14 @@ main .news {
   background-color: rgba(216, 140, 79, 0.9);
 }
 main .news a {
-  background: rgba(132, 195, 65, 0.8);
+  background: rgba(251, 226, 136, 0.8);
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.062);
   margin: 0 0 2em 0;
   padding: 0.5em;
+  transition: transform 0.5s;
+}
+main .news a:hover {
+  transform: scale(1.05);
 }
 main .news a p {
   font-size: x-large;

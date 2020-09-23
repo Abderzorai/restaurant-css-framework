@@ -40,77 +40,71 @@
             </div>
         </nav>
     </header>
-    <form novalidate>
-        <div class="form-row">
-        <div class="form-group col-12 col-md-6">
-          <label for="inputNoms">Nom(s)</label>
-          <input type="text" class="form-control" id="Nom" placeholder="Nom(s)" required>
-          <div class="valid-feedback">Ok !</div>
-          <div class="invalid-feedback">Valeur incorrecte</div>
-        </div>
-        <div class="form-group col-12 col-md-6">
-          <label for="inputPrenoms">prenom(s)</label>
-          <input type="text" class="form-control" id="Prenom" placeholder="Prenom(s)" required>
-          <div class="valid-feedback">Ok !</div>
-          <div class="invalid-feedback">Valeur incorrecte</div>
-        </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group col-12 col-md-6">
-            <label for="inputEmail4"><i class="fas fa-at"></i>  Email</label>
-            <input type="email" class="form-control" id="Email" placeholder="Email" required>
-            <div class="valid-feedback">Ok !</div>
-            <div class="invalid-feedback">Valeur incorrecte</div>
-          </div>
-          <div class="form-group col-12 col-md-6">
-            <label for="inputCity"><i class="fas fa-phone-square-alt"></i>  Telephone</label>
-            <input type="text" class="form-control" id="Telephone" required>
-            <div class="valid-feedback">Ok !</div>
-            <div class="invalid-feedback">Valeur incorrecte</div>
-            
-          </div>
-        </div>
-        <div class="form-row">
-            <div class="card col-12 col-md-6">
-                <div class="card-body">
-                  <h5 class="card-title"><i class="fas fa-phone-square-alt"></i>  Notre numéraux</h5>
-                  <p class="card-text">générales: 6163. 6163. 6173</p>
-              </div>
-            </div>
-            <div class="card col-12 col-md-6">
-                <div class="card-body">
-                  <h5 class="card-title"><i class="fas fa-at"></i>  Notre adresse email</h5>
-                <p class="card-text">Gal-ananas@pina/colada.com</p>
-              </div>
-            </div>
-        </div>
 
-        <div class="form-group">
-          <label for="selection">Une liste select</label>
-          <select id="selection" class="form-control">
-            <option value="">objet du message</option>
-            <optgroup label="Groupe d'options 1">
-              <option value="">Remarques</option>
-              <option value="">Plainte</option>
-              <option value="">Commercial</option>
-              <option value="">Stage</option>
-              <option value="">Autres</option>
-            </optgroup>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="Textarea">Zone de text</label>
-          <textarea class="form-control" id="Textarea" rows="3"></textarea>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="cgu" required>
-            <label class="form-check-label" for="cgu">J'accepte les conditions générales d'utilisation de vos données</label>
-            <div class="invalid-feedback">Vous devez accepter les CGU pour continuer</div>
+    <main>
+        <section class="container-fluid d-flex flex-column align-items-center">
+            <h2 class="col-12 text-center">Contactez-nous</h2>
+            <div class="row col-12 d-flex justify-content-around">
+                <div class="col-12 col-md-6 text-center">
+                    <h3>Par téléphone :</h3>
+                    <a href="#"><i class="fas fa-phone-square-alt"></i> 0112/35.81.32</a>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <h3>Par mail :</h3>
+                    <a href="#"><i class="fas fa-at"></i> pine@appetite.com</a>
+                </div>
+            </div>
+        </section>
+
+        <form novalidate>
+            <h2 class="col-10 offset-1 col-md-12 offset-md-0 text-center">...Ou via notre formulaire en ligne !</h2>
+            <div class="form-row">
+            <div class="form-group col-12 col-md-6">
+              <label for="inputNoms">Nom</label>
+              <input type="text" class="form-control" id="Nom" placeholder="Votre nom" required>
+            </div>
+            <div class="form-group col-12 col-md-6">
+              <label for="inputPrenoms">Prénom</label>
+              <input type="text" class="form-control" id="Prenom" placeholder="Votre prénom" required>
+            </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-12 col-md-6">
+                <label for="inputEmail4"><i class="fas fa-at"></i>  Email</label>
+                <input type="email" class="form-control" id="Email" placeholder="Votre Email" required>
+              </div>
+              <div class="form-group col-12 col-md-6">
+                <label for="inputCity"><i class="fas fa-phone-square-alt"></i>  Téléphone</label>
+                <input type="text" class="form-control" placeholder="Votre numéro de téléphone" id="Telephone" required>
+              </div>
+            </div>
+    
+            <div class="form-group">
+              <label for="selection">Sujet de votre message</label>
+              <select id="selection" class="form-control">
+                <option>Avis</option>
+                <option>Plainte</option>
+                <option>Commercial</option>
+                <option>Stage</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="Textarea">Votre message</label>
+              <textarea class="form-control" id="Textarea" rows="3" placeholder="Écrivez votre message ici..."></textarea>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox"  id="cgu" required>
+                <label class="form-check-label" for="cgu">J'accepte les conditions générales d'utilisation de vos données</label>
+              </div>
           </div>
-      </div>
-      <button class="btn btn-dark" type="submit"><i class="far fa-paper-plane"></i>Envoyer</button>
-      </form>
+          <div class="d-flex justify-content-center">
+              <button class="btn btn-light" type="submit"><i class="far fa-paper-plane"></i> Envoyer</button>
+          </div>
+          </form>
+    </main>
+    
     <footer class="container-md d-flex align-items-center flex-column">
       <p>BeCode project made by :</p>
       <p><a href="https://github.com/DelahayJoann" target="_blank">Joann Delahay</a> - <a href="https://github.com/tanoshiibot/" target="_blank">Olivia Fantinel</a> - <a href="https://github.com/Gabrielju" target="_blank">Julien Gabriel</a> - <a href="https://github.com/Abderzorai" target="_blank">Abderrahman Zorai</a> </p>
@@ -121,22 +115,5 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script>
-        (function() {
-             'use strict';
-             window.addEventListener('load', function() {
-               let forms = document.getElementsByClassName('needs-validation');
-               let validation = Array.prototype.filter.call(forms, function(form) {
-                 form.addEventListener('submit', function(event) {
-                   if (form.checkValidity() === false) {
-                     event.preventDefault();
-                     event.stopPropagation();
-                   }
-                   form.classList.add('was-validated');
-                 }, false);
-               });
-             }, false);
-           })();
-    </script>
 </body>
 </html>

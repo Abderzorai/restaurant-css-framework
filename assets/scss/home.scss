@@ -35,10 +35,14 @@ main{
     .news{
         background-color: rgba($color: $persian_orange, $alpha: 0.9);
         a{
-            background: rgba($yellow_green, 0.8);
+            background: rgba($jasmine, 0.8);
             box-shadow: $black_shadow;
             margin: 0 0 2em 0;
             padding: 0.5em;
+            transition: transform 0.5s;
+            &:hover{
+                transform: scale(1.05);
+            }
             p{
                 font-size: x-large;
             }

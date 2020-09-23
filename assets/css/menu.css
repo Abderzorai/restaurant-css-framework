@@ -38,7 +38,7 @@ main li {
 
 @media screen and (min-width: 768px) {
   .bg:hover {
-    transform: scale(1.03);
+    transform: scale(1.01);
   }
 
   main img:hover {

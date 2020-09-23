@@ -1,4 +1,21 @@
 #contain {
-  background-color: #FBE288; }
+  background-color: #FBE288;
+}
+
+h2 {
+  margin: 2em 0 2em 0;
+}
+
+h3 {
+  margin: 1em 0 1em 0;
+}
+
+form {
+  margin: 0 50px 20px 50px;
+}
+
+button {
+  text-align: center;
+}
 
 /*# sourceMappingURL=contact.css.map */
